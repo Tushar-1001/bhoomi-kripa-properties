@@ -3,8 +3,10 @@
    =================================================== */
 
 /* --- Smooth Scrolling --- */
-html {
+html, body {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 /* --- Custom Scrollbar --- */
@@ -247,28 +249,6 @@ html {
   outline: none;
 }
 
-/* --- Text gradient --- */
-.text-gradient-gold {
-  background: linear-gradient(135deg, #FFD700, #FFA500);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-/* --- Project amenity list --- */
-.amenity-item {
-  position: relative;
-  padding-left: 1.5rem;
-}
-.amenity-item::before {
-  content: '✦';
-  position: absolute;
-  left: 0;
-  color: #FFD700;
-  font-size: 0.75rem;
-  top: 50%;
-  transform: translateY(-50%);
-}
 
 /* --- Responsive Image Aspect Ratio --- */
 .aspect-project {
