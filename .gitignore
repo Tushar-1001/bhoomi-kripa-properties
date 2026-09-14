@@ -4,4 +4,5 @@ Thumbs.db
 
 # Editor files
 .vscode/
+.jetro/
 *.log
